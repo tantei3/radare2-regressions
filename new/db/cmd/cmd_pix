@@ -1,4 +1,4 @@
-NAME=pad medium size instructions
+NAME=pix medium size instructions
 FILE=-
 ARGS=-a x86 -b 32
 EXPECT=<<EOF
@@ -13,7 +13,7 @@ pix 9090909090
 EOF
 RUN
 
-NAME=pad smaller instruction
+NAME=pix smaller instruction
 FILE=-
 ARGS=-a x86 -b 32
 EXPECT=<<EOF
@@ -25,7 +25,7 @@ pix 52ee
 EOF
 RUN
 
-NAME=pad large instruction
+NAME=pix large instruction
 FILE=-
 ARGS=-a x86 -b 32
 EXPECT=<<EOF
